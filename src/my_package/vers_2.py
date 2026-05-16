@@ -156,5 +156,6 @@ Phoenix Score: {phoenix}/17
             messagebox.showerror("Ошибка", f"Проверьте ввод данных\n{e}")
     def run(self):
         self.root.mainloop()
-app = SepsisApp()
-app.run()
+if __name__ == "__main__":
+    app = SepsisApp()
+    app.run()
